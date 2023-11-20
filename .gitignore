@@ -1,4 +1,5 @@
-table*
+./table*
+table1.xlsx
 ~*
 myenv/
 against_pandas.rtf

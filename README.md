@@ -35,6 +35,7 @@ Lets try to compare this libraries with simple task of processing data on CSV fi
 
 I got following results:
 ![Time to perform task with CSV file](./img/table1.png)
+
 Results show that you can get significant speed up with modern libraries.
 
 Should admit It’s not professional benchmark also all packages are actively developing so results may change significantly. 
