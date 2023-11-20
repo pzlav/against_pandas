@@ -38,6 +38,6 @@ def generate_file(filename, num_rows = 20_000_000, batch_size = 10_000_000):
     print(f"{filename} CSV generation completed.")
     
 
-generate_file('large_dataset', 20_000_000)
-generate_file('huge_dataset', 200_000_000)
-generate_file('enormous_dataset', 1_000_000_000)
+generate_file('large_dataset', 20_000_000)            # 1.2 GB
+generate_file('huge_dataset', 200_000_000)            # 12 GB
+generate_file('enormous_dataset', 1_000_000_000)      # 60 GB
