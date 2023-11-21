@@ -48,13 +48,16 @@ In 2.0 release, the big change is related to the introduction of the Apache Arro
 
 
 ## Comparative Analysis
+
 ### Test Setup
 - **Hardware**: Intel Xeon Icelake, 32 GB RAM, Ubuntu 20.04.
 - **Objective**: Speed up the transformation of large datasets (10-100 GB) within a Python environment.
 - **Method**: Processing CSV files with filtering and aggregation tasks across different file sizes but identical structures.
 
 ### Results
-![Time to perform task with CSV file](./img/table1.png)
+<p align="center">
+    <img src="./img/table1.png" alt="Time to perform task with CSV file" title="Time to perform task with CSV file"/>
+</p>
 
 The results indicate a considerable performance improvement when using modern libraries compared to traditional methods.
 
@@ -62,6 +65,7 @@ The results indicate a considerable performance improvement when using modern li
 
 This comparison is not a professional benchmark, and given the active development of these packages, results may vary over time. All source scripts and datasets used for this test are available at this <a href="https://github.com/pzlav/against_pandas">GitHub repository</a>.
  
+
 ## Conclusion
 
 1. **Utilize OLAP Databases**: For the fastest data processing, OLAP databases are preferable, though Python libraries offer additional flexibility with UDFs and UDAFs.
